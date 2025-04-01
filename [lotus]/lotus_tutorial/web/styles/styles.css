@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: none;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+#app {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#app h1 {
+  color: #fff;
+  font-size: 2.006rem;
+  font-weight: 800;
+}
+
+#app .list {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#app .list .tutorial {
+  width: 42.75rem;
+  height: 6rem;
+  background: linear-gradient(
+    20deg,
+    rgba(0, 0, 0, 0.85) 13.41%,
+    rgba(0, 0, 0, 0) 216.99%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+#app .list .tutorial img.thumbnail {
+  width: 12rem;
+  height: 6rem;
+
+  left: 0;
+  position: absolute;
+}
+
+#app .list .tutorial:hover .play {
+  opacity: 1;
+  transition: 500ms ease;
+}
+
+#app .list .tutorial p {
+  width: 40%;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  text-align: left;
+}
+
+#app .list .tutorial .play {
+  width: 3.6875rem;
+  height: 6rem;
+  border: 1px solid rgba(211, 19, 47);
+  background: radial-gradient(
+      197.78% 197.78% at 147.78% 157.78%,
+      rgba(211, 19, 47) 0%,
+      rgba(212, 41, 41, 0) 100%
+    ),
+    linear-gradient(95deg, rgba(211, 19, 47) 3.66%, rgba(212, 41, 41, 0) 133.14%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    right: 0;
+    position: absolute;
+
+    opacity: 0;
+}
+
+
+#video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+#video iframe {
+  width: 60rem;
+  height: 37.5rem;
+}

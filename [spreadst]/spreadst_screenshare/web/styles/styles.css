@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: url(../assets/background.png);
+  background-position: center !important;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+#app > .footer {
+  position: absolute;
+  left: 50%;
+  bottom: 3.125rem;
+  transform: translateX(-50%);
+}
+
+#app {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app .logo {
+  height: 5.625rem;
+}
+
+#app .title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app .title h3 {
+  color: #1E90F3;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 0;
+}
+
+#app .title h1 {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  text-shadow: 0px 0px 40px rgba(255, 255, 255, 0.25);
+  font-family: Prompt;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#app .warning {
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+#app .id {
+  display: flex;
+  width: 160px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 3px;
+  box-shadow: 0 0 0.8px rgba(255, 255, 255, 0.10);
+  background: radial-gradient(149.41% 131.65% at -10.68% 1.97%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), rgba(255, 255, 255, 0.06);
+
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-bottom: 1rem;
+}
+
+#app .id > b {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#app .print {
+  width: 35rem;
+  height: 5.25rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.13) 0%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#app p {
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 132.436%;
+  text-transform: uppercase;
+}
+
+#app p b {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#app .print p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 132.436%;
+  text-transform: uppercase;
+}
+
+#app .warning b {
+  color: #1E90F3;
+}
+
+#app .discord {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#app .discord small {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 132.436%;
+  text-transform: uppercase;
+}
+
+#app .discord button {
+  display: flex;
+  width: 330px;
+  padding: 13px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 4px;
+  border: 0.8px solid var(--Primary, #1E90F3);
+  background: linear-gradient(135deg, #1E90F3 -23.4%, rgba(229, 23, 23, 0.00) 129.13%), rgba(0, 0, 0, 0.60);
+  box-shadow: 0px 0px 24.2px 0px rgb(24, 113, 191, .25);
+
+  color: #FFF;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Sora;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+#app .discord button img {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+@media (max-width: 1100px) {
+  #app {
+    zoom: .75;
+  }
+}

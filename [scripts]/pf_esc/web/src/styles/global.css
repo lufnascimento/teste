@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+@layer components {
+  .grid-components {
+    grid-template-rows: 98px 168px 340px 100px;
+    grid-template-columns: 310px 419px 218px;
+    grid-template-areas: 
+      "profile profile vips"
+      "shop bet vips"
+      "shop skins skins"
+      "pass pass pass";
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.motion-safe {
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  transition: background-color 0.2s ease;
+}
+

@@ -1,0 +1,58 @@
+{
+    "55325": {
+        "muteCalls": true,
+        "disableCalls": false
+    },
+    "11": {
+        "muteCalls": true,
+        "disableCalls": true
+    },
+    "25780": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "65025": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "6": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "5": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "9": {
+        "muteCalls": true,
+        "disableCalls": false
+    },
+    "3": {
+        "muteCalls": true,
+        "disableCalls": true
+    },
+    "2": {
+        "muteCalls": true,
+        "disableCalls": true
+    },
+    "1": {
+        "muteCalls": true,
+        "disableCalls": false
+    },
+    "3452": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "2082": {
+        "muteCalls": false,
+        "disableCalls": false
+    },
+    "5565": {
+        "muteCalls": true,
+        "disableCalls": true
+    },
+    "10238": {
+        "muteCalls": false,
+        "disableCalls": false
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "LAPDANCE 1 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-1.gif"
+    },
+    {
+        "name": "LAPDANCE 2 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-2.gif"
+    },
+    {
+        "name": "LAPDANCE 3 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-3.gif"
+    },
+    {
+        "name": "LAPDANCE 2 (SEM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-4.gif"
+    },
+    {
+        "name": "LAPDANCE 3 (SEM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-5.gif"
+    },
+    {
+        "name": "LAPDANCE 4 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-6.gif"
+    },
+    {
+        "name": "LAPDANCE 5 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-7.gif"
+    },
+    {
+        "name": "LAPDANCE 6 (COM TOQUE)",
+        "image": "https://dkscripts.com.br/images/lapdance/lapdance-8.gif"
+    }
+]
